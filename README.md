@@ -2,15 +2,15 @@
 Mans 2.kursa programmēšanas eksāmens saistībā par teksta datnēm(testa kods, testpiemēri, informatīvais materiāls).
 
 
-![C++ logo smukuma pēc](https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/ISO_C%2B%2B_Logo.svg/1200px-ISO_C%2B%2B_Logo.svg.png](https://icons-for-free.com/download-icon-bxl+c+plus+plus-1325051931431540241_256.png)
+![C++ logo smukuma pēc](https://cdn-icons-png.flaticon.com/512/74/74897.png)
 
 
 ## **Darāmo saraksts projektam**
 
 ###### Teksta datnes pamācības dokuments
 - [x] Uzsākts projekts
-- [ ] Informatīvais materiāls
-- [ ] 5 Piemēri
+- [x] Informatīvais materiāls
+- [x] 5 Piemēri
 - [ ] 5 Piemēru kodi
 - [ ] Avots
 ###### Tests par teksta datnēm

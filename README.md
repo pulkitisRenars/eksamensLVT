@@ -15,9 +15,9 @@ Mans 2.kursa programmēšanas eksāmens saistībā par teksta datnēm(testa kods
 - [x] Avots
 ###### Tests par teksta datnēm
 - [x] Uzsākts projekts
-- [ ] Ievade
+- [x] Ievade
 - [ ] 10 jautājumi
-- [ ] Saglabāšana failā
+- [x] Saglabāšana failā
 ###### Testa programmas testpiemēri un testēsana
 - [x] Uzsākts projekts
 - [ ] Apraksts

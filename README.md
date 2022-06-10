@@ -7,12 +7,12 @@ Mans 2.kursa programmēšanas eksāmens saistībā par teksta datnēm(testa kods
 
 ## **Darāmo saraksts projektam**
 
-###### Teksta datnes pamācības dokuments
+###### Teksta datnes pamācības dokuments 
 - [x] Uzsākts projekts
 - [x] Informatīvais materiāls
 - [x] 5 Piemēri
-- [ ] 5 Piemēru kodi
-- [ ] Avots
+- [x] 5 Piemēru kodi
+- [x] Avots
 ###### Tests par teksta datnēm
 - [x] Uzsākts projekts
 - [ ] Ievade

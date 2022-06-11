@@ -20,7 +20,7 @@ Mans 2.kursa programmēšanas eksāmens saistībā par teksta datnēm(testa kods
 - [x] Saglabāšana failā
 ###### Testa programmas testpiemēri un testēsana
 - [x] Uzsākts projekts
-- [ ] Apraksts
+- [x] Apraksts
 - [ ] Prasības
 - [ ] Testpiemēri
 - [ ] Testēšanas žurnāls

@@ -28,14 +28,13 @@ void randoms(int *arr, size_t n)
 
 
 void infoTest(){
-cout<<"INFO";
-}
+cout<<"                        |----------------------------------------------------------------------------------|\n                        |                Iepazīsties ar teksta datnes testu.                               |\n                        |        Šis tests satur jautājumus par teksta datnēm, izvadi, ievadi, u.c.        |\n                        |Lai atbildētu uz jautājumiem lietotājam ir jāievada patiesie piemēri cipari kopā. |\n                        |          Piemēram, pareizās atbildes ir 1 un 2, tādēļ rakstīs 12 vai 21.         |\n                        |                          Veiksmi testā!!                                         |\n                        |----------------------------------------------------------------------------------|";}
 
 void mainTest(){
 
     int s = 1;
-  int answers1[10] = {23,13,13,14,24,12,23,13,23,1};
-  int answers2[10] = {32,31,31,41,42,21,32,31,32,1};
+  int answers1[10] = {23,13,13,14,24,12,23,14,23,13};
+  int answers2[10] = {32,31,31,41,42,21,32,41,32,31};
  int answer;
    questions[0] = "\nPriekš kā izmanto cout funkciju?\n1 - Ievadīt tekstu konsolē |\n2 - Izvadīt tekstu konsolē |\n3 - Izvadīt mainīgo vērtību konsolē |\n4 - Ievadīt mainīgo vērtību konsolē|";
    questions[1] = "\nPriekš kā izmanto cin funkciju?\n1 - Ievadīt tekstu konsolē |\n2 - Izvadīt tekstu konsolē |\n3 - Ievadīt mainīgo vērtību konsolē |\n4 - izvadīt mainīgo vērtību konsolē|";
@@ -46,7 +45,7 @@ void mainTest(){
    questions[6] = "\nKo dara ios::app?\n1 - Izdzēš faila saturu |\n2 - Neietekmē faila saturu |\n3 - Atļauj turpināt faila rakstīšanu bez satura dzēšanas |\n4 - Atļauj turpināt faila rakstīšanu ar satura dzēšanu|";
    questions[7] = "\nKas no piemēriem ir patiesība par string?\n1 - string vertība ir char masīvs |\n2 - string vertība ir string masīvs |\n3 - Divas string vērtības nevar sasummēt kopā |\n4 - Divas string vērtības var sasummēt kopā|";
    questions[8] = "\nKas no piemēriem ir patiesība par char?\n1 - char vertība ir vairāku simbolu virkne |\n2 - char vērtību var sasummēt ar string vērtību |\n3 - char vērtība ir jāraksta \" '' \" |\n4 - char vērtība ir jāraksta \" \"\" \"|";
-   questions[9] = "\n";
+   questions[9] = "\nKādas ir patiesas funkcijas/darbības par teksta datnēm c++?\n1 - ios::app |\n2 - android::app |\n3 - ios::out |\n4 - r+w |";
 pareizi = 0; nepareizi=0;
 
  
@@ -60,7 +59,9 @@ for(int i = 0;i<10;i++){
    cout<<"\n----------------------------------------------------------------------------------";
 cout<<"\n\n"<<s++<<". jautājums";
 cout<<questions[asked[i]];
+do{
 cout<<"\n\nTava atbilde: ";cin>>answer;
+}while(answer>44 || answer<11);
 if(answer==answers1[asked[i]]){
   pareizi++;
   cout<<"Pareizi";
@@ -72,6 +73,7 @@ if(answer==answers1[asked[i]]){
   cout<<"Nepareizi";
 }
 }
+cout<<"\n\nTev kopā ir pareizie: "<<pareizi<<", Nepareizie: "<<nepareizi<<"\n";
 ofstream writeFile("rezultati.txt",ios::app);
 writeFile<<"Pareizie: "<<pareizi<<", Nepareizie: "<<nepareizi<<"\n";
 writeFile.close();
@@ -93,9 +95,9 @@ cout << simbols;
 
 int main(){
     char izvele;
-   cout<<"~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~****Tests par teksta datn�m****~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~";
+   cout<<"~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~****Tests par teksta datnēm****~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~";
    do{
-   cout<<"\n1- Informācija par testu | 2- Sākt testu | 3 - Parādīt iepriekšējos mēģinājuma rezultātu | x - Beigt programmu";
+   cout<<"\n\n1- Informācija par testu | 2- Sākt testu | 3 - Parādīt iepriekšējos mēģinājuma rezultātu | x - Beigt programmu";
 cout<<"\n\n                                             Izvēle: ";cin>>izvele;
 switch (izvele)
 {

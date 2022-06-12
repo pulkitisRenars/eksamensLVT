@@ -22,5 +22,5 @@ Mans 2.kursa programmēšanas eksāmens saistībā par teksta datnēm(testa kods
 - [x] Uzsākts projekts
 - [x] Apraksts
 - [x] Prasības
-- [ ] Testpiemēri
+- [x] Testpiemēri
 - [ ] Testēšanas žurnāls

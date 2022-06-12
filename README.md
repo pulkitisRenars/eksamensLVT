@@ -23,4 +23,4 @@ Mans 2.kursa programmēšanas eksāmens saistībā par teksta datnēm(testa kods
 - [x] Apraksts
 - [x] Prasības
 - [x] Testpiemēri
-- [ ] Testēšanas žurnāls
+- [x] Testēšanas žurnāls

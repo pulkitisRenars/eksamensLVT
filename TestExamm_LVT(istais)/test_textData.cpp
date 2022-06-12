@@ -10,6 +10,8 @@ int nepareizi;
 string questions[10];
 // Jautājumu secība
 int asked[10];
+
+
 // Jautājumu secības algoritms
 void randoms(int *arr, size_t n) {
   if (n > 1) {
